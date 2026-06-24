@@ -1594,6 +1594,7 @@ GameObject:
   - component: {fileID: 1097972107}
   - component: {fileID: 1097972106}
   - component: {fileID: 1097972105}
+  - component: {fileID: 1097972109}
   m_Layer: 0
   m_Name: PuchiPuchi
   m_TagString: Untagged
@@ -1691,6 +1692,19 @@ Transform:
   - {fileID: 1875549486}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1097972109
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1097972104}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 83546b18a53a5fb4dbed73f7a9cb003c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  popSound: {fileID: 1195456493}
 --- !u!1 &1135735954
 GameObject:
   m_ObjectHideFlags: 0
@@ -1768,6 +1782,11 @@ Transform:
   m_Children: []
   m_Father: {fileID: 1465880764}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!82 &1195456493 stripped
+AudioSource:
+  m_CorrespondingSourceObject: {fileID: 7176344439015315549, guid: 0a7d2469f24041c4284c66706f84c45e, type: 3}
+  m_PrefabInstance: {fileID: 1239494296}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &1239494296
 PrefabInstance:
   m_ObjectHideFlags: 0
