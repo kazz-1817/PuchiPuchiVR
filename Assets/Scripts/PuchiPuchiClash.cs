@@ -1,3 +1,4 @@
+using System.Collections;
 using UnityEngine;
 
 public class PuchiPuchiClash : MonoBehaviour
@@ -5,10 +6,22 @@ public class PuchiPuchiClash : MonoBehaviour
     [Header("破裂したときの音")]
     public AudioSource popSound;
 
-    // すでに破裂したかを判定するフラグ（2回連続で鳴らないようにするため）
+    [Header("復活するまでの秒数")]
+    public float respawnTime = 3.0f;
+
+    // すでに破裂したかを判定するフラグ
     private bool isPopped = false;
 
-    // 破裂させるための命令（kazzさんのPoke機能から呼び出せるように public にします）
+    // 最初の大きさを記憶しておくための変数
+    private Vector3 originalScale;
+
+    void Start()
+    {
+        // ゲーム開始時に、この物体の元のサイズを記憶しておく
+        originalScale = transform.localScale;
+    }
+
+    // 破裂させるための命令
     public void Pop()
     {
         // すでに破裂していたら何もしない
@@ -16,19 +29,31 @@ public class PuchiPuchiClash : MonoBehaviour
 
         isPopped = true;
 
-        // 1. Miyuさんが見つけてくれた音を鳴らす！
+        // 音を鳴らす
         if (popSound != null)
         {
             popSound.Play();
         }
 
-        // 2. 見た目をペシャンコにする（Y軸方向を潰す）
-        transform.localScale = new Vector3(transform.localScale.x, 0.1f, transform.localScale.z);
+        // 見た目をペシャンコにする（Y軸方向を潰す）
+        transform.localScale = new Vector3(originalScale.x, 0.1f, originalScale.z);
 
-        // ※もしオブジェクトごと完全に消滅させたい場合は、上の行の代わりに Destroy(gameObject); と書きます
+        // 指定秒数後に復活させるタイマー処理をスタート
+        StartCoroutine(RespawnBubble());
     }
 
-    // （保険）もし手動で何かがぶつかっただけでも破裂させたい場合
+    // 復活のためのタイマー処理
+    private IEnumerator RespawnBubble()
+    {
+        // Unity上の「復活するまでの秒数」で設定した時間だけ待機する
+        yield return new WaitForSeconds(respawnTime);
+
+        // 元のサイズに戻し、再び破裂できるようにフラグを戻す
+        transform.localScale = originalScale;
+        isPopped = false;
+    }
+
+    // （保険）手動で何かがぶつかっただけでも破裂させたい場合
     private void OnTriggerEnter(Collider other)
     {
         // 当たった相手が指や手（Pokeなど）であれば破裂させる

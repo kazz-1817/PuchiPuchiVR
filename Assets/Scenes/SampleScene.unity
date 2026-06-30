@@ -2516,6 +2516,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 397028963021089933, guid: ac7529bd0d429cf438845066014169d4, type: 3}
+      propertyPath: m_IsTrigger
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 1994307959489394371, guid: ac7529bd0d429cf438845066014169d4, type: 3}
       propertyPath: m_Name
       value: PuchiPuchi
@@ -2567,8 +2571,76 @@ PrefabInstance:
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
-    m_AddedComponents: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 6840528330302616210, guid: ac7529bd0d429cf438845066014169d4, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 7344429256068942658}
   m_SourcePrefab: {fileID: 100100000, guid: ac7529bd0d429cf438845066014169d4, type: 3}
+--- !u!114 &7344429256068942656 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 6369177808983341420, guid: ac7529bd0d429cf438845066014169d4, type: 3}
+  m_PrefabInstance: {fileID: 7344429256068942655}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 83546b18a53a5fb4dbed73f7a9cb003c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!1 &7344429256068942657 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 6840528330302616210, guid: ac7529bd0d429cf438845066014169d4, type: 3}
+  m_PrefabInstance: {fileID: 7344429256068942655}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &7344429256068942658
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7344429256068942657}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1464721f2283eb14e94a33e812b47be4, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _interactableView: {fileID: 1581058221}
+  _whenHover:
+    m_PersistentCalls:
+      m_Calls: []
+  _whenUnhover:
+    m_PersistentCalls:
+      m_Calls: []
+  _whenSelect:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 7344429256068942656}
+        m_TargetAssemblyTypeName: PuchiPuchiClash, Assembly-CSharp
+        m_MethodName: Pop
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+  _whenUnselect:
+    m_PersistentCalls:
+      m_Calls: []
+  _whenInteractorViewAdded:
+    m_PersistentCalls:
+      m_Calls: []
+  _whenInteractorViewRemoved:
+    m_PersistentCalls:
+      m_Calls: []
+  _whenSelectingInteractorViewAdded:
+    m_PersistentCalls:
+      m_Calls: []
+  _whenSelectingInteractorViewRemoved:
+    m_PersistentCalls:
+      m_Calls: []
 --- !u!1660057539 &9223372036854775807
 SceneRoots:
   m_ObjectHideFlags: 0
