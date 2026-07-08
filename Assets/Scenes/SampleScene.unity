@@ -175,6 +175,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: SmallPuchiPuchi  (4)
       objectReference: {fileID: 0}
+    - target: {fileID: 5760421172883937756, guid: ef237efb462fa214e829e73ef08c3ab4, type: 3}
+      propertyPath: popSound
+      value: 
+      objectReference: {fileID: 1195456493}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -511,6 +515,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: SmallPuchiPuchi  (6)
       objectReference: {fileID: 0}
+    - target: {fileID: 5760421172883937756, guid: ef237efb462fa214e829e73ef08c3ab4, type: 3}
+      propertyPath: popSound
+      value: 
+      objectReference: {fileID: 1195456493}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -875,6 +883,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 9131846503153353222, guid: ac7529bd0d429cf438845066014169d4, type: 3}
+      propertyPath: popSound
+      value: 
+      objectReference: {fileID: 1195456493}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -1099,7 +1111,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5473289513140084082, guid: 26ef11560c96aef4dbccb00d58424970, type: 3}
       propertyPath: m_LocalPosition.z
-      value: 1.514
+      value: 1.592
       objectReference: {fileID: 0}
     - target: {fileID: 5473289513140084082, guid: 26ef11560c96aef4dbccb00d58424970, type: 3}
       propertyPath: m_LocalRotation.w
@@ -1190,6 +1202,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 9131846503153353222, guid: ac7529bd0d429cf438845066014169d4, type: 3}
+      propertyPath: popSound
+      value: 
+      objectReference: {fileID: 1195456493}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -1324,6 +1340,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 3817316175504483465, guid: deef4555fd925284b90a0eb2fbdfb78e, type: 3}
+      propertyPath: popSound
+      value: 
+      objectReference: {fileID: 1195456493}
     - target: {fileID: 5159680587597282045, guid: deef4555fd925284b90a0eb2fbdfb78e, type: 3}
       propertyPath: m_Name
       value: BigPuchiPuchi (5)
@@ -1600,6 +1620,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 3817316175504483465, guid: deef4555fd925284b90a0eb2fbdfb78e, type: 3}
+      propertyPath: popSound
+      value: 
+      objectReference: {fileID: 1195456493}
     - target: {fileID: 5159680587597282045, guid: deef4555fd925284b90a0eb2fbdfb78e, type: 3}
       propertyPath: m_Name
       value: BigPuchiPuchi (6)
@@ -1808,6 +1832,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 3817316175504483465, guid: deef4555fd925284b90a0eb2fbdfb78e, type: 3}
+      propertyPath: popSound
+      value: 
+      objectReference: {fileID: 1195456493}
     - target: {fileID: 5159680587597282045, guid: deef4555fd925284b90a0eb2fbdfb78e, type: 3}
       propertyPath: m_Name
       value: BigPuchiPuchi (7)
@@ -1869,6 +1897,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 3817316175504483465, guid: deef4555fd925284b90a0eb2fbdfb78e, type: 3}
+      propertyPath: popSound
+      value: 
+      objectReference: {fileID: 1195456493}
     - target: {fileID: 5159680587597282045, guid: deef4555fd925284b90a0eb2fbdfb78e, type: 3}
       propertyPath: m_Name
       value: BigPuchiPuchi (4)
@@ -2159,6 +2191,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 9131846503153353222, guid: ac7529bd0d429cf438845066014169d4, type: 3}
+      propertyPath: popSound
+      value: 
+      objectReference: {fileID: 1195456493}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -2251,6 +2287,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 9131846503153353222, guid: ac7529bd0d429cf438845066014169d4, type: 3}
+      propertyPath: popSound
+      value: 
+      objectReference: {fileID: 1195456493}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -2351,6 +2391,10 @@ PrefabInstance:
       propertyPath: instanceId
       value: e1dbc109-58df-4b2e-8d3a-318c6c149ae2
       objectReference: {fileID: 0}
+    - target: {fileID: 9182353831235639363, guid: 92c94c0490398d04daf42aded164b3b7, type: 3}
+      propertyPath: popSound
+      value: 
+      objectReference: {fileID: 1195456493}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -2417,6 +2461,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 9131846503153353222, guid: ac7529bd0d429cf438845066014169d4, type: 3}
+      propertyPath: popSound
+      value: 
+      objectReference: {fileID: 1195456493}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -2478,6 +2526,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 9131846503153353222, guid: ac7529bd0d429cf438845066014169d4, type: 3}
+      propertyPath: popSound
+      value: 
+      objectReference: {fileID: 1195456493}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -2539,6 +2591,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: SmallPuchiPuchi  (5)
       objectReference: {fileID: 0}
+    - target: {fileID: 5760421172883937756, guid: ef237efb462fa214e829e73ef08c3ab4, type: 3}
+      propertyPath: popSound
+      value: 
+      objectReference: {fileID: 1195456493}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -2600,6 +2656,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: SmallPuchiPuchi  (9)
       objectReference: {fileID: 0}
+    - target: {fileID: 5760421172883937756, guid: ef237efb462fa214e829e73ef08c3ab4, type: 3}
+      propertyPath: popSound
+      value: 
+      objectReference: {fileID: 1195456493}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -2781,6 +2841,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 9131846503153353222, guid: ac7529bd0d429cf438845066014169d4, type: 3}
+      propertyPath: popSound
+      value: 
+      objectReference: {fileID: 1195456493}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -2842,6 +2906,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 9131846503153353222, guid: ac7529bd0d429cf438845066014169d4, type: 3}
+      propertyPath: popSound
+      value: 
+      objectReference: {fileID: 1195456493}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -2935,6 +3003,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 3817316175504483465, guid: deef4555fd925284b90a0eb2fbdfb78e, type: 3}
+      propertyPath: popSound
+      value: 
+      objectReference: {fileID: 1195456493}
     - target: {fileID: 5159680587597282045, guid: deef4555fd925284b90a0eb2fbdfb78e, type: 3}
       propertyPath: m_Name
       value: BigPuchiPuchi (1)
@@ -3182,6 +3254,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: SmallPuchiPuchi  (3)
       objectReference: {fileID: 0}
+    - target: {fileID: 5760421172883937756, guid: ef237efb462fa214e829e73ef08c3ab4, type: 3}
+      propertyPath: popSound
+      value: 
+      objectReference: {fileID: 1195456493}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -3243,6 +3319,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 9131846503153353222, guid: ac7529bd0d429cf438845066014169d4, type: 3}
+      propertyPath: popSound
+      value: 
+      objectReference: {fileID: 1195456493}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -3373,6 +3453,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 9131846503153353222, guid: ac7529bd0d429cf438845066014169d4, type: 3}
+      propertyPath: popSound
+      value: 
+      objectReference: {fileID: 1195456493}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -3516,6 +3600,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: SmallPuchiPuchi  (7)
       objectReference: {fileID: 0}
+    - target: {fileID: 5760421172883937756, guid: ef237efb462fa214e829e73ef08c3ab4, type: 3}
+      propertyPath: popSound
+      value: 
+      objectReference: {fileID: 1195456493}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -3646,6 +3734,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: SmallPuchiPuchi  (10)
       objectReference: {fileID: 0}
+    - target: {fileID: 5760421172883937756, guid: ef237efb462fa214e829e73ef08c3ab4, type: 3}
+      propertyPath: popSound
+      value: 
+      objectReference: {fileID: 1195456493}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -3711,6 +3803,10 @@ PrefabInstance:
       propertyPath: m_Enabled
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 5760421172883937756, guid: ef237efb462fa214e829e73ef08c3ab4, type: 3}
+      propertyPath: popSound
+      value: 
+      objectReference: {fileID: 1195456493}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -3759,6 +3855,10 @@ PrefabInstance:
       propertyPath: m_Enabled
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 3817316175504483465, guid: deef4555fd925284b90a0eb2fbdfb78e, type: 3}
+      propertyPath: popSound
+      value: 
+      objectReference: {fileID: 1195456493}
     - target: {fileID: 5159680587597282045, guid: deef4555fd925284b90a0eb2fbdfb78e, type: 3}
       propertyPath: m_Name
       value: BigPuchiPuchi (2)
@@ -3869,6 +3969,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: SmallPuchiPuchi  (2)
       objectReference: {fileID: 0}
+    - target: {fileID: 5760421172883937756, guid: ef237efb462fa214e829e73ef08c3ab4, type: 3}
+      propertyPath: popSound
+      value: 
+      objectReference: {fileID: 1195456493}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -4121,6 +4225,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: SmallPuchiPuchi  (1)
       objectReference: {fileID: 0}
+    - target: {fileID: 5760421172883937756, guid: ef237efb462fa214e829e73ef08c3ab4, type: 3}
+      propertyPath: popSound
+      value: 
+      objectReference: {fileID: 1195456493}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -4209,6 +4317,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: VeryBigPuchiPuchi (1)
       objectReference: {fileID: 0}
+    - target: {fileID: 9182353831235639363, guid: 92c94c0490398d04daf42aded164b3b7, type: 3}
+      propertyPath: popSound
+      value: 
+      objectReference: {fileID: 1195456493}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
