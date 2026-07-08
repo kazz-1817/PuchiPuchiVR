@@ -35,8 +35,8 @@ public class PuchiPuchiClash : MonoBehaviour
             popSound.Play();
         }
 
-        // 見た目をペシャンコにする（Y軸方向を潰す）
-        transform.localScale = new Vector3(originalScale.x, 0.1f, originalScale.z);
+        // 見た目をペシャンコにする（Z軸方向を潰す）
+        transform.localScale = new Vector3(originalScale.x, originalScale.y, 0.05f);
 
         // 指定秒数後に復活させるタイマー処理をスタート
         StartCoroutine(RespawnBubble());
