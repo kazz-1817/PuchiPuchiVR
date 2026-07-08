@@ -297,7 +297,7 @@ Transform:
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 0.7, y: 0.7, z: 1.4}
+  m_LocalScale: {x: 0.7, y: 0.7, z: 1.5}
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 6428504957785434697}
@@ -340,7 +340,7 @@ MonoBehaviour:
   _data: {fileID: 0}
   _pointableElement: {fileID: 0}
   _surfacePatch: {fileID: 3236961098052553303}
-  _enterHoverNormal: 0.1
+  _enterHoverNormal: 0.04
   _enterHoverTangent: 0
   _exitHoverNormal: 0.05
   _exitHoverTangent: 0
@@ -480,7 +480,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1464721f2283eb14e94a33e812b47be4, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _interactableView: {fileID: 0}
+  _interactableView: {fileID: 6392385324699485920}
   _whenHover:
     m_PersistentCalls:
       m_Calls: []
@@ -530,6 +530,7 @@ GameObject:
   - component: {fileID: 8952705306214355569}
   - component: {fileID: 3688313513097302203}
   - component: {fileID: 5760421172883937756}
+  - component: {fileID: 2418531778234954618}
   m_Layer: 0
   m_Name: 'SmallPuchiPuchi '
   m_TagString: Untagged
@@ -547,7 +548,7 @@ Transform:
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0.8, y: 1, z: 0.25}
-  m_LocalScale: {x: 0.1, y: 0.1, z: 0.1}
+  m_LocalScale: {x: 0.1, y: 0.1, z: 0.075}
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 3398004746965267280}
@@ -623,7 +624,7 @@ SphereCollider:
   m_LayerOverridePriority: 0
   m_IsTrigger: 1
   m_ProvidesContacts: 0
-  m_Enabled: 1
+  m_Enabled: 0
   serializedVersion: 3
   m_Radius: 0.5
   m_Center: {x: 0, y: 0, z: 0}
@@ -641,6 +642,29 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   popSound: {fileID: 0}
   respawnTime: 3
+--- !u!136 &2418531778234954618
+CapsuleCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4364597679600699304}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Radius: 0.37887707
+  m_Height: 1
+  m_Direction: 1
+  m_Center: {x: 0, y: 0, z: 0.009809931}
 --- !u!1 &5847558830562027335
 GameObject:
   m_ObjectHideFlags: 0
