@@ -38,6 +38,12 @@ public class PuchiPuchiClash : MonoBehaviour
         // 見た目をペシャンコにする（Z軸方向を潰す）
         transform.localScale = new Vector3(originalScale.x, originalScale.y, 0.05f);
 
+        //スコア追加
+        if (ScoreManager.instance != null)
+        {
+            ScoreManager.instance.AddScore();
+        }
+
         // 指定秒数後に復活させるタイマー処理をスタート
         StartCoroutine(RespawnBubble());
     }
@@ -45,7 +51,7 @@ public class PuchiPuchiClash : MonoBehaviour
     // 復活のためのタイマー処理
     private IEnumerator RespawnBubble()
     {
-        // Unity上の「復活するまでの秒数」で設定した時間だけ待機する
+        // Unity上の復活するまでの秒数で設定した時間だけ待機する
         yield return new WaitForSeconds(respawnTime);
 
         // 元のサイズに戻し、再び破裂できるようにフラグを戻す
@@ -53,7 +59,7 @@ public class PuchiPuchiClash : MonoBehaviour
         isPopped = false;
     }
 
-    // （保険）手動で何かがぶつかっただけでも破裂させたい場合
+    //手動で何かがぶつかっただけでも破裂させたい場合
     private void OnTriggerEnter(Collider other)
     {
         // 当たった相手が指や手（Pokeなど）であれば破裂させる
