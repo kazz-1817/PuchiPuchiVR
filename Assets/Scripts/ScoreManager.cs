@@ -34,7 +34,7 @@ public class ScoreManager : MonoBehaviour
         {
             case "red":
                 redScore += 1;
-                if (redScoreText != null) redScoreText.text = "Red: " + redScore + "回";
+                if (redScoreText != null) redScoreText.text = "    Red: " + redScore + "回";
                 break;
             case "yellow":
                 yellowScore += 1;
@@ -46,7 +46,7 @@ public class ScoreManager : MonoBehaviour
                 break;
             case "blue":
                 blueScore += 1;
-                if (blueScoreText != null) blueScoreText.text = "Blue: " + blueScore + "回";
+                if (blueScoreText != null) blueScoreText.text = "   Blue: " + blueScore + "回";
                 break;
             default:
                 // タグが設定されていない、または名前がズレている場合の保険
