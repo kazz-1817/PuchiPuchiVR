@@ -76,6 +76,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: BigPuchiPuchi
       objectReference: {fileID: 0}
+    - target: {fileID: 4364597679600699304, guid: ef237efb462fa214e829e73ef08c3ab4, type: 3}
+      propertyPath: m_TagString
+      value: Red
+      objectReference: {fileID: 0}
     - target: {fileID: 4888906209816242269, guid: ef237efb462fa214e829e73ef08c3ab4, type: 3}
       propertyPath: m_Enabled
       value: 0
