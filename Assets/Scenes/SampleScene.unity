@@ -2235,6 +2235,7 @@ GameObject:
   - component: {fileID: 663266372}
   - component: {fileID: 663266371}
   - component: {fileID: 663266370}
+  - component: {fileID: 663266373}
   m_Layer: 5
   m_Name: Canvas
   m_TagString: Untagged
@@ -2328,6 +2329,23 @@ Canvas:
   m_SortingLayerID: 0
   m_SortingOrder: 0
   m_TargetDisplay: 0
+--- !u!114 &663266373
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 663266368}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9ef5fc77987fd6944931826f7fe33547, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  scoreText: {fileID: 1411554944}
+  redScoreText: {fileID: 1711284593}
+  yellowScoreText: {fileID: 788942218}
+  greenScoreText: {fileID: 802482772}
+  blueScoreText: {fileID: 1143572023}
 --- !u!1 &706415654
 GameObject:
   m_ObjectHideFlags: 0
@@ -4831,6 +4849,10 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   scoreText: {fileID: 1411554944}
+  redScoreText: {fileID: 1711284593}
+  yellowScoreText: {fileID: 788942218}
+  greenScoreText: {fileID: 802482772}
+  blueScoreText: {fileID: 1143572023}
 --- !u!114 &1347070042
 MonoBehaviour:
   m_ObjectHideFlags: 0

@@ -41,7 +41,7 @@ public class PuchiPuchiClash : MonoBehaviour
         //スコア追加
         if (ScoreManager.instance != null)
         {
-            ScoreManager.instance.AddScore();
+            ScoreManager.instance.AddScore(gameObject.tag);
         }
 
         // 指定秒数後に復活させるタイマー処理をスタート
